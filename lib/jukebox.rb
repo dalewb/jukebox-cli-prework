@@ -46,11 +46,10 @@ end
 def run(songs)
   help 
   puts "Please enter a command:"
-  input = gets.chomp 
-  status = true 
+  input = gets.chomp
   while status == true 
     if input == "list"
-      list(songs)
+      ist(songs)
     elsif input == "play"
       play(songs)
     elsif input == "help"
