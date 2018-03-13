@@ -50,7 +50,7 @@ def run(songs)
   while input != "exit"
     input = gets.chomp
     if input == "list"
-      ist(songs)
+      list(songs)
     elsif input == "play"
       play(songs)
     elsif input == "help"
